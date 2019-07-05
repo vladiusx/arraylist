@@ -15,7 +15,7 @@ public class ArrayList<T> {
 
     public void add(Integer entity) {
         if (mark == arr.length - 1) {
-
+            resize();
         }
         arr[mark++] = entity;
     }
